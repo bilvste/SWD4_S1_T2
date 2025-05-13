@@ -15,7 +15,6 @@ import 'app_bloc_observer.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = AppBlocObserver();
-  final dio = Dio();
   final weatherService = WeatherService("a403e8daa80245a68da201141221512");
 
   runApp(MyApp(weatherService: weatherService));

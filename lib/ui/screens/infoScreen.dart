@@ -132,8 +132,8 @@ class _WeatherInfoPageState extends State<WeatherInfoPage> with SingleTickerProv
   Widget build(BuildContext context) {
     final current = widget.weatherData.current;
     // Format time
-    final DateTime now = DateTime.parse(
-        "${widget.weatherData.location.localtime.split(' ')[0]} ${widget.weatherData.location.localtime.split(' ')[1]}:00");
+    final DateTime now = DateTime.parse(widget.weatherData.location.localtime);
+
     final String formattedTime = DateFormat('EEEE, d MMMM · h:mm a').format(now);
     final Size screenSize = MediaQuery.of(context).size;
 
