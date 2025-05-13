@@ -8,5 +8,7 @@ class AssetsRes {
 
   static const String PROJECT_NAME = 'weather_app';
   static const String PROJECT_VERSION = '1.0.0+1';
+  static const String APP_ICON = 'assets/images/app_icon.png';
+  static const String WEATHER_APP_12165142 = 'assets/images/weather-app_12165142.png';
   static const String LOADING = 'assets/loading.json';
 }

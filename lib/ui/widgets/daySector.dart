@@ -22,7 +22,7 @@ class DaySelector extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.only(left: 8, bottom: 12),
+          padding: const EdgeInsets.only(left: 12, bottom: 12),
           child: Text(
             " Forecast",
             style: TextStyle(
@@ -33,8 +33,9 @@ class DaySelector extends StatelessWidget {
           ),
         ),
         Container(
+          margin: EdgeInsetsGeometry.symmetric(horizontal: 30),
           height: 115,
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 12),
           decoration: BoxDecoration(
             color: const Color(0xFF2A303D),
             borderRadius: BorderRadius.circular(20),
