@@ -1,16 +1,35 @@
-# weather_app
+# 🌦️ Weather App
 
-A new Flutter project.
+A beautiful and minimal Weather App built with **Flutter** and **BLoC** architecture.  
+This app allows users to search for weather conditions by city and view real-time weather data using a clean and intuitive interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Search weather by city name
+- ☀️ View current weather details: temperature, condition, humidity, wind speed, etc.
+- 📍 Location-based weather (optional enhancement)
+- 🌓 Dynamic theme based on weather condition (e.g., sunny, rainy)
+- 🧠 Built using Flutter BLoC for robust state management
+- 📱 Responsive UI for all screen sizes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- **Flutter**
+- **Dart**
+- **Flutter BLoC**
+- **Dio** (for HTTP requests)
+- **Freezed / Equatable** (for immutability and equality)
+- **OpenWeatherMap API** (or any weather API)
+
+---
+
+## 📸 Screenshots
+
+| Home Screen                    | Weather Details                     |
+|--------------------------------|-------------------------------------|
+| ![Home](screenshots/home.jpeg) | ![Details](screenshots/loaded.jpeg) |
+
