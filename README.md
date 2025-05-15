@@ -23,7 +23,7 @@ This app allows users to search for weather conditions by city and view real-tim
 - **Flutter BLoC**
 - **Dio** (for HTTP requests)
 - **Freezed / Equatable** (for immutability and equality)
-- **OpenWeatherMap API** (or any weather API)
+- **OpenWeatherMap API** (or any weather API).
 
 ---
 
